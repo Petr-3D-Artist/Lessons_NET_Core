@@ -8,9 +8,9 @@ namespace Lessons_NER_Core
             //LESSON 39.ИНДЕКСЫ И ДИАПАЗОНЫ В C#
 
             int[] myArray = { 2, 3, 4, 5 };
-
+            int[] myArray2 = myArray[1..4];
             Console.WriteLine(myArray[^1]); // такой знак - ^1 - он будет читать наш массив сконца, первый элемент с конца, а 0 с начало 
-
+            
 
 
 
